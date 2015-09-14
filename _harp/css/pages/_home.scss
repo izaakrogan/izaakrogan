@@ -1,7 +1,3 @@
-h1 {
-  color: red;
-}
-
 .landing {
   width: 100%;
   display: flex;
@@ -34,7 +30,6 @@ h1 {
 	}
 	h1, p, span {
 		color: #999;
-		font-family: 'UG thin';
 	}
 	h1 {
 		font-size: 52px;
@@ -58,7 +53,6 @@ h1 {
 		margin-bottom: 5%;
 		font-size: 24px;
 		line-height: 150%;
-		font-family: 'UG thin';
 	}
 	h1:last-child {
 		margin-bottom: 0;
@@ -86,28 +80,28 @@ h1 {
 		padding: 20px;
 	}
 	.image-one {
-		background-image: url("/assets/abc.jpg");
+		background-image: url("/assets/images/portfolio/abc.jpg");
 	}
 	.image-two {
-		background-image: url("/assets/children-kenya.jpg");
+		background-image: url("/assets/images/portfolio/children-kenya.jpg");
 	}
 	.image-three {
-		background-image: url("/assets/camden.jpg");
+		background-image: url("/assets/images/portfolio/camden.jpg");
 	}
 	.image-four {
-		background-image: url("/assets/chichester-harbour.jpg");
+		background-image: url("/assets/images/portfolio/chichester-harbour.jpg");
 	}
 	.image-five {
-		background-image: url("/assets/stockport.jpg");
+		background-image: url("/assets/images/portfolio/stockport.jpg");
 	}
 	.image-six {
-		background-image: url("/assets/streetflower.jpg");
+		background-image: url("/assets/images/portfolio/streetflower.jpg");
 	}
 	.image-seven {
-		background-image: url("/assets/shipping.jpg");
+		background-image: url("/assets/images/portfolio/shipping.jpg");
 	}
 	.im {
-		background-color: blue;
+		background-color: #999;
 		position: relative;
 		background-position: center;
 		background-size: cover;
@@ -124,7 +118,6 @@ h1 {
 			flex-direction: column;
 			transition: opacity .7s ease-in-out;
 			h3 {
-				color: blue;
 				margin: 20px;
 				transition: margin 0.7s ease-in-out;
 			}
