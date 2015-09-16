@@ -1,7 +1,7 @@
 .contact {
 	width: 100%;
 	position: relative;
-	background-color: #bbb;
+	background-color: $color-four;
 	padding: 100px 0;
 	.container {
 		margin: auto;
@@ -19,7 +19,7 @@
 		padding-top: 70px;
 		max-width: 500px;
 		margin: auto;
-		background-image: url("/assets/old-east-end-dark.jpeg");
+		background-image: url("/assets/images/old-east-end-dark.jpeg");
 		background-position: bottom;
 		background-size: cover;
 		* {
