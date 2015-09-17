@@ -3,7 +3,8 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<title>Globe Two | Software Development</title>
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<title>Globe Town | Software Development | Training in React and React Native</title>
 		<meta name="description" content="Globe Town | London's React Native Experts. We produce beautiful software and provide training, classes and workshops.">
 		<link rel="stylesheet" href="/css/main.css">
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -19,18 +20,34 @@
 		<link rel="shortcut icon" href="/assets/favicon.ico" >
 	</head>
     <body>
-      <nav>
-  <ul>
-    <li>
-      <a href="/">HOME</a>
-    </li>
-    <li>
-      <a href="/training">TRAINING</a>
-    </li>
-    <li>
-      <a href="/about">ABOUT</a>
-    </li>
-  </ul>
+      <nav id="navbar">
+	<div class="dropdownToggle">
+		<div class="logo">
+			<h2><a href="/">Globe Town</a></h2>
+		</div>
+		<div class="links-container">
+		<div class="nav-settings-dropdown hide">
+			<ul>
+				<li>
+					<h2><a href='/'>HOME</a></h2>
+				</li>
+				<li>
+					<h2><a href='/training'>TRAINING</a></h2>
+				</li>
+				<li>
+					<h2><a href='/about'>ABOUT</a></h2>
+				</li>
+			</ul>
+		</div>
+		<a data-toggle="dropdown" class="toggle-container">
+			<p>
+				<button id="cmn-toggle-switch" class="icon cmn-toggle-switch cmn-toggle-switch__htx">
+		  		<span>toggle menu</span>
+				</button>
+			</p>
+		</a>
+	</div>
+	</div>
 </nav>
 
     	 <div class="landing">
@@ -41,16 +58,17 @@
 
 <div class="copy">
 	<div>
-		<h1>Globe town crafts exceptional software.</h1>
+		<h1>We build software for web and mobile using React, React Native and Hapi.</h1>
+		<!--<h1>Globe Town crafts beautiful software. Education, quality and collective empowerment are at the heart of what we do. We are rethinking the traditional workplace. By giving talented individuals their autonomy, we are challenging the status quo and providing exceptional value to our clients.</h1>-->
 
-		<h1>Education, quality and collective empowerment are at the heart of what we do. We are challenging the traditional workplace. By giving exceptional individuals their autonomy and letting our developers make their own decisions about the projects they work on, we are challenging the status quo and proving exceptional value to our clients.</h1>
+
 	</div>
 </div>
 
 <div id="portfolio-anchor"></div>
 <div class="portfolio">
 	<div class="images-container">
-		<div class="grid-4">
+		<div class="grid-2">
 	<a href="portfolio/africabriefcase">
 		<div id="img" class="image-one im">
 			<div class="overlay">
@@ -61,18 +79,7 @@
 	</a>
 </div>
 
-		<div class="grid-4">
-	<a href="portfolio/camdenmaps">
-		<div id="img" class="image-three im">
-			<div class="overlay">
-				<h3>Camden Maps</h3>
-				<h3>Camden Council</h3>
-			</div>
-		</div>
-	</a>
-</div>
-
-		<div class="grid-4">
+		<div class="grid-2">
 	<a href="portfolio/chichester-harbour">
 		<div id="img" class="image-four im">
 			<div class="overlay">
@@ -83,8 +90,32 @@
 	</a>
 </div>
 
-		<div class="grid-4">
-	<a href="portfolio/coot-freight">
+
+
+		<!--<div class="grid-2 ">
+	<a href=portfolio/camdenmaps>
+		<div id="img" class="image-three im">
+			<div class="overlay">
+				<h3>Camden Maps</h3>
+				<h3>Camden Council</h3>
+			</div>
+		</div>
+	</a>
+</div>
+
+		<div class="grid-2 ">
+	<a href=portfolio/stockport>
+		<div id="img" class="image-five im">
+			<div class="overlay">
+				<h3>Suicide Prevention</h3>
+				<h3>Stockport Council</h3>
+			</div>
+		</div>
+	</a>
+</div>
+
+		<div class="grid-2 ">
+	<a href=portfolio/coot-freight>
 		<div id="img" class="image-seven im">
 			<div class="overlay">
 				<h3>Freight Management</h3>
@@ -94,8 +125,8 @@
 	</a>
 </div>
 
-		<div class="grid-4">
-	<a href="portfolio/streetflower">
+		<div class="grid-2 ">
+	<a href=portfolio/streetflower>
 		<div id="img" class="image-six im">
 			<div class="overlay">
 				<h3>Street Flower</h3>
@@ -105,16 +136,8 @@
 	</a>
 </div>
 
-		<div class="grid-4">
-	<a href="portfolio/stockport">
-		<div id="img" class="image-five im">
-			<div class="overlay">
-				<h3>Suicide Prevention</h3>
-				<h3>Stockport Council</h3>
-			</div>
-		</div>
-	</a>
-</div>
+
+		-->
 
 	</div>
 </div>
@@ -149,7 +172,7 @@
 				<p>Training</p>
 			</a>
 		</div>
-
+	
 	</ul>
 </div>
     	<div id="contact"></div>
@@ -157,19 +180,18 @@
 	<div class="container">
 		<div itemscope itemtype="http://schema.org/LocalBusiness" class="grid-6 info">
 			<p itemprop="telephone">+44 7931 729 663</p>
-			<a href="mailto:contact@foundersandcoders.org"><p itemprop="email">contact@globetown.io</p></a>
+			<a href="mailto:contact@foundersandcoders.org"><p itemprop="email">izaakrogan@gmail.com</p></a>
 			<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 				<span itemprop="streetAddress">14 Palmers Road</span>,
 				<span itemprop="addressLocality">London</span>,
 				<span itemprop="postalCode">E2 OSY</span>
 			</p>
 			<div>
-				<a href="https://twitter.com/founderscoders" target="_blank"><i class="icon-twitter-circled contact-icon"></i></a>
-				<a href="https://www.facebook.com/foundersandcoders" target="_blank"><i class="icon-facebook-circled contact-icon"></i></a>
-				<a href="https://github.com/foundersandcoders" target="_blank"><i class="icon-github-circled contact-icon"></i></a>
-				<a href="mailto:contact@foundersandcoders.org" target="_blank"><i class="icon-mail-circled contact-icon"></i></a>
+				<a href="https://twitter.com/globetownio" target="_blank"><i class="icon-twitter-circled contact-icon"></i></a>
+				<a href="https://github.com/besarthoxhaj" target="_blank"><i class="icon-github-circled contact-icon"></i></a>
+				<a href="mailto:izaakrogan@gmail.com" target="_blank"><i class="icon-mail-circled contact-icon"></i></a>
 				<a href="https://www.google.co.uk/maps/place/14+Palmers+Rd,+London+E2+0SY" target="_blank"><i class="icon-location-circled contact-icon"></i></a>
-				<a href="http://www.meetup.com/founderscoders/" target="_blank"><i class="icon-meetup contact-icon"></i></a>
+				<a href="http://www.meetup.com/London-React-Native-Community/" target="_blank"><i class="icon-meetup contact-icon"></i></a>
 				<!-- <a href=""><i class="icon-instagram-circled contact-icon"></i></a>			 -->
 			</div>
 		</div>

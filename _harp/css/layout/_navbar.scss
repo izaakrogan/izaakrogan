@@ -53,8 +53,25 @@ nav {
 		justify-content: space-between;
 		align-items: center;
 	}
+	h2 {
+		a {
+			letter-spacing: 2px;
+			padding: 0 20px;
+		}
+	}
 }
-.toggle-container, .logo h2 {
+
+.links-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.toggle-container {
+	width: 36px;
+}
+
+.logo h2 {
 	width: 160px;
 }
 
@@ -79,6 +96,14 @@ nav {
 	}
 	.nav-settings-dropdown {
 			margin: 0;
+			h2 {
+				a {
+					padding: 0;
+				}
+			}
+	}
+	.toggle-container {
+		width: 115px;
 	}
 }
 
