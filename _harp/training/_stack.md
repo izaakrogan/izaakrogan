@@ -1,5 +1,3 @@
-###We offer training across our stack. If you are intrested in having us put together a training programme for you or your staff feel free to <a onclick="fac.nav_scroll('/training/', 'contactsection')">get in touch</a>.
-
 + Languages: JavaScript
 + Backend: Node.js, hapi, Express, Sails.js
 + Frontend: React, AngularJS

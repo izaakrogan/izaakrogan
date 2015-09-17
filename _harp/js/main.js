@@ -58,4 +58,5 @@ var fac = (function (){
   window.onload = function() {
       home_resize();
   }
+  
 }());

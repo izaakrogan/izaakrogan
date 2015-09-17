@@ -1,4 +1,5 @@
 ###Learn React Native
+17-18th October
 
 A weekend workshop on Facebook's [*React Native*](https://facebook.github.io/react-native/)—a framework for building native apps using React.
 
